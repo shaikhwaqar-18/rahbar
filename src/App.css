@@ -1,0 +1,116 @@
+table,th,td{
+  border-collapse: 5px solid black;
+  text-align: center;
+  
+}
+table{
+  width: 100%;
+  border-spacing: 15px;
+}
+nav{
+  
+  position: fixed;
+ margin-left: 15%;
+ width: 80%;
+ margin-right: 15%;
+  background-color: black;
+  color: rgb(252, 15, 15);
+  font-size: 3rem;
+}
+.student{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.text{
+  text-align: left;
+  
+}
+a:link{
+  color: rgb(250, 244, 244);
+}
+a:visited{
+  color: bisque;
+}
+a:hover{
+  color: blue;
+  font-size: 5rem;
+}
+a:active{
+  color: red;
+}
+img{
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  left: 85%;
+  top: 70%;
+  filter: blur(2px);
+  filter: grayscale(100%);
+}
+a{
+  padding-right: 20%;
+}
+h1{
+  margin-top: 5%;
+  text-align: center;
+}
+h5{
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 0%;
+}
+h3{
+  margin-top: 10%;
+  text-decoration: underline;
+  margin-left: 10%;
+}
+.students{
+  border: 2px solid black;
+  height: 50rem;
+  margin: 2%;
+  background-color: darkgray;
+}
+.marksheet{
+  border: 2px solid black;
+  color: rgb(16, 53, 16);
+  border-radius: 5%;
+  margin-top: 5%;
+  background-color: bisque;
+ 
+}
+
+th{
+  background-color: black;
+color: white;
+}
+h4{
+  font-size: 6rem;
+  margin-top: 15%;
+  padding-top: 10%;
+  
+}
+.Home{
+  background-image: url(./components/assets/images/result.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+tr:nth-child(odd){
+background-color: cornflowerblue;
+}
+th:hover,td:hover{
+  color: blue;
+  font-size: 2rem;
+  background-color: red;
+}
+td{
+  font-weight: 700;
+}
+tr:hover{
+  background-color: rgb(231, 235, 8);
+}
+caption{
+  font-size: 2rem;
+  font-weight: 800;
+}
